@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 
 class App extends React.Component {
@@ -29,6 +30,7 @@ class App extends React.Component {
         <>
         <Header />
         <h2>Forum</h2>
+        <Footer />
         </>
     )
       
