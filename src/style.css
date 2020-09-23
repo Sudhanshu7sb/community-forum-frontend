@@ -257,3 +257,30 @@ table {
 }
 /* css reset ends */
 
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conatiner{
+  width:1200px;
+}
+
+.header{
+  background-color:darkgrey;
+  width:100%;
+}
+
+.navbar-menu{
+  justify-content: space-around;
+  align-items: center;
+  width:50%;
+}
+
+.navbar-menu .input-box{
+  width:50%;
+}
+
+.input-box input{
+  width:100%;
+}

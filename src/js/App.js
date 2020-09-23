@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "../components/Header";
 
 
 class App extends React.Component {
@@ -19,13 +20,14 @@ class App extends React.Component {
   }
 
   render(){
-    if(!this.state.data){
-        return (
-            <>LOADING...</>
-        )
-    }
+    // if(!this.state.data){
+    //     return (
+    //         <>LOADING...</>
+    //     )
+    // }
     return (
         <>
+        <Header />
         <h2>Forum</h2>
         </>
     )
