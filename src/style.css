@@ -284,3 +284,12 @@ table {
 .input-box input{
   width:100%;
 }
+
+.product-details{
+  width:90%;
+  background-color:lavender;
+}
+.about-product,
+.upvotes{
+  width:45%;
+}

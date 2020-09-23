@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import QuestionAnswer from "../components/QuestionAnswer";
 
 
 class App extends React.Component {
@@ -29,7 +30,7 @@ class App extends React.Component {
     return (
         <>
         <Header />
-        <h2>Forum</h2>
+        <QuestionAnswer />
         <Footer />
         </>
     )
