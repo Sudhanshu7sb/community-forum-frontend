@@ -10,7 +10,6 @@ function Header() {
           aria-label="main navigation"
         >
           <div className="navbar-brand mx-3 flex-center">
-            {/* change color */}
             <h1 className="has-text-black-bis  is-size-5 ">COMMUNITY FORUM</h1>
           </div>
 
@@ -24,7 +23,9 @@ function Header() {
                 <a href="##" className="button is-info">
                   <strong>Sign up</strong>
                 </a>
-                <a href="##" className="button is-light">Log in</a>
+                <a href="##" className="button is-light">
+                  Log in
+                </a>
               </div>
             </div>
           </div>
