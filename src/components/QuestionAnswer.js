@@ -7,9 +7,10 @@ function QuestionAnswer() {
         <article className="flex box mb-0 px-6">
           <div className="product-details flex-center box">
             <div className="about-product content">
-              <h5 className="is-medium mb-0"> Whats is your Question?</h5>
+              <h5 className="is-medium mb-0">Q. Whats is your Question?</h5>
               <p>
-                Since, I am a programmer, so the best site to find the answers
+              <h5 className="is-medium mb-0">Number of answers :</h5>
+                Answer 1. Since, I am a programmer, so the best site to find the answers
                 to my most of the questions is stack overflow. And believe me,
                 it's the best site till date for programmers. I can't think
                 about a day if this site shuts down. Nightmare!.
@@ -26,7 +27,7 @@ function QuestionAnswer() {
             </div>
             <div className="upvotes has-text-right">
               <p className="has-text-black is-medium">
-                <a href="##">Read More&rarr;</a>
+                <a href="##">Read More Answers&rarr;</a>
               </p>
             </div>
           </div>
@@ -52,7 +53,7 @@ function QuestionAnswer() {
             </div>
             <div className="upvotes has-text-right">
               <p className="has-text-black is-medium">
-                <a href="##">Read More&rarr;</a>
+                <a href="##">Read More Answers &rarr;</a>
               </p>
             </div>
           </div>
@@ -78,7 +79,7 @@ function QuestionAnswer() {
             </div>
             <div className="upvotes has-text-right">
               <p className="has-text-black is-medium">
-                <a href="##">Read More&rarr;</a>
+                <a href="##">Read More Answers&rarr;</a>
               </p>
             </div>
           </div>
