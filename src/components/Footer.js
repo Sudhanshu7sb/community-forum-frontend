@@ -3,10 +3,14 @@ import React from "react";
 function Footer() {
   return (
     <>
-      <footer class="content has-background-grey-light py-5">
-        <h2 class="has-text-centered has-text-weight-normal is-size-5">
-          Community Forum
-        </h2>
+      <footer className="footer">
+        <div className="content has-text-centered">
+          <p>
+            <strong>Blog theme</strong> by{" "}
+            <a href="https://twitter.com/Sudhanshu7sb">Sudhanshu</a>. Based on the{" "}
+            <a href="##">Stack-Overflow</a>.
+          </p>
+        </div>
       </footer>
     </>
   );

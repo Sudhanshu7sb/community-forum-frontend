@@ -257,39 +257,44 @@ table {
 }
 /* css reset ends */
 
-.flex-center{
+.flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.conatiner{
-  width:1200px;
+.conatiner {
+  width: 1200px;
 }
 
-.header{
-  background-color:darkgrey;
-  width:100%;
+.header {
+  background-color: darkgrey;
+  width: 100%;
 }
 
-.navbar-menu{
+.navbar-menu {
   justify-content: space-around;
   align-items: center;
-  width:50%;
+  width: 50%;
 }
 
-.navbar-menu .input-box{
-  width:50%;
+.navbar-menu .input-box {
+  width: 50%;
 }
 
-.input-box input{
-  width:100%;
+.input-box input {
+  width: 100%;
 }
 
-.product-details{
-  width:90%;
-  background-color:lavender;
+.product-details {
+  width: 90%;
+  background-color: lavender;
+  border-bottom: 1px solid black;
 }
 .about-product,
-.upvotes{
-  width:45%;
+.upvotes {
+  width: 45%;
+}
+
+.form {
+  width: 50%;
 }
